@@ -36,6 +36,7 @@ main{
 .container-main-2{
     display: flex;
     width: 100%;
+    padding-top: 75px;
     height: calc(100vh );
 }
 
@@ -43,3 +44,9 @@ i{
     display: inline-block;
 }
 
+/* header-main */
+
+.header-main{
+    height: 150px;
+    width: 100vw;
+}
