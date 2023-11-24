@@ -6,11 +6,17 @@
     z-index: 2;
 }
 
+/* header */
+
+.logo img{
+  width: 70px;
+}
 
 /* aside */
 
 aside{
      height: calc(100vh );
+    padding: 75px 5px;
 }
 
 
@@ -23,20 +29,17 @@ main{
 
 .container-main{
     display: flex;
+    
 
 }
 
 .container-main-2{
     display: flex;
     width: 100%;
-    padding-top: 70px;
     height: calc(100vh );
 }
 
-.card{
-    width: 20px;
-    z-index: 0;
+i{
+    display: inline-block;
 }
-
-
 
