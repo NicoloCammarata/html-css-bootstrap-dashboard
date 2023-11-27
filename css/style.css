@@ -6,6 +6,7 @@
     z-index: 2;
 }
 
+
 /* header */
 
 .logo img{
@@ -15,7 +16,7 @@
 /* aside */
 
 aside{
-    height: 100%;
+    height: 100vh;
      
     padding: 75px 5px;
 }
@@ -49,58 +50,10 @@ i{
 .header-main{
     height: 150px;
 }
-<main>
-        <aside class=" col-2 bg-dark row  ">
-            <div class="col-12 text-white">
-                <div class="col-12 border text-center py-1 text-white">
-                    <i class="fa-solid fa-house py-2"></i><i class="d-none d-lg-inline">Home</i>
-                </div>
-                <div class="col-12 border text-center py-1">
-                    <i class="fa-solid fa-chart-simple"></i><i class="d-none d-lg-inline">Stats</i>
-                </div>
-                <div class="col-12 border text-center py-1">
-                    <i class="fa-solid fa-chart-line"></i><i class="d-none d-lg-inline">Signal</i>
-                </div>
-    
-            </div>
-           <div class=" text-white">
-                <div class="col-12 border text-center my-1">
-                    <i class="fa-solid fa-gear"></i><i class="d-none d-lg-inline">Admin</i>
-                </div>
-    
-            </div>
-            
-        </aside>
-        <div class="container-main-2 col-10  bg-danger-subtle px-2">
-                
-            <div class=" bg-primary  header-main">
-                <div class="col-sm-12 col-md-4 order-md-1">
-                   <span>Nuovo studente +</span>
-                </div>
-                <div class="col-sm-12 col-md-4">
-                   <span>Boolean</span>
-                </div>
-                <div class="col-sm-12 col-md-4">
-                   <span>Studenti online negli ultimi 20 min: <br><strong>125</strong></min:br></span>
-                </div>
-                
-    
-            </div>
-            <div class="card col-sm-12 col-md-8">
-                <h2 class="border">Prime Classi</h2>
-    
-            </div>
-            <div class="card col-sm-12 col-md-4">
-                <h2 class="border">F.A.Q.</h2>
-                d
-    
-            </div>
-            <div class="card col-sm-12 col-md-8">
-                <h2 class="border">Todo</h2>
-    
-            </div>
-            <div class="card col-sm-12 col-md-8">
-                <h2 class="border">Todo</h2>
-    
-            </div>
-    </main>
+
+
+
+
+
+
+
