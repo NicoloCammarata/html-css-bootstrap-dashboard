@@ -45,15 +45,39 @@ i{
     display: inline-block;
 }
 
-/* header-main */
+.nouvo-studente:hover{
+    background-color: rgb(255, 255, 255);
+    color: black;
 
-.header-main{
-    height: 150px;
+}
+
+#finestra{
+    display: none;
+}
+.nouvo-studente:active #finestra{
+    display: inline;
+
+}
+
+.pagina{
+    display: none;
+}
+
+.lista:hover .pagina{
+    display: block;
+}
+
+#done{
+    font-size: small;
+}
+
+.bottone:hover{
+    background-color: white;
+    opacity: 0.5;
 }
 
 
-
-
-
-
-
+li:hover{
+    background-color: rgb(255, 255, 255);
+    opacity: 0.5;
+}
