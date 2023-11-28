@@ -1,58 +1,36 @@
-.container-header{
-    width: 100%;
-    display: flex;
-    height: 70px;
-    position: fixed;
-    z-index: 2;
-}
+
 
 
 /* header */
+#inizio{
+    height: 70px;
 
-.logo img{
-  width: 70px;
 }
+
+
+
 
 /* aside */
 
-aside{
-    height: 100vh;
-     
-    padding: 75px 5px;
-}
 
 
 
 /* main */
-
-main{
-    display: flex;
+.main-section{
+    height: calc(100vh - 70px);
+ 
 }
 
-.container-main{
-    padding-top: 75px;
-    height: 100vh;
-}
-.container-main-2{
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    height: 1200px;
-    padding-top: 75px;
-}
-
-i{
-    display: inline-block;
-}
-
-.nouvo-studente:hover{
-    background-color: rgb(255, 255, 255);
-    color: black;
-
+#main-content{
+    overflow-y: auto;
 }
 
 #finestra{
     display: none;
+}
+.nouvo-studente:hover{
+    background-color: rgb(255, 255, 255);
+    color: black;
 }
 .nouvo-studente:active #finestra{
     display: inline;
@@ -63,21 +41,20 @@ i{
     display: none;
 }
 
-.lista:hover .pagina{
+#studente:hover .pagina{
     display: block;
 }
 
 #done{
-    font-size: small;
+    font-size: smaller;
 }
 
-.bottone:hover{
-    background-color: white;
-    opacity: 0.5;
+#classe{
+    padding: 5px;
+    background-color: orange;
 }
-
 
 li:hover{
-    background-color: rgb(255, 255, 255);
+    background-color: white;
     opacity: 0.5;
 }
